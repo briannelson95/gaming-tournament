@@ -7,6 +7,7 @@
 .button {
     border: none;
     background: none;
+    font-size: inherit;
 }
 
 .button:hover {
@@ -36,6 +37,11 @@
     transition: 0.2s;
 }
 
+.navItemIcon {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
 .navItem:hover {
     cursor: pointer;
 }
@@ -43,6 +49,23 @@
 .social {
     size: 30;
     padding: auto .5rem;
+}
+
+.megaMenu {
+    position: absolute;
+    left: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 90vw;
+    height: 10rem;
+    margin: 0;
+}
+
+.megaMenuItems {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 750px) {
