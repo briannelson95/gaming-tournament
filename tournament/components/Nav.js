@@ -46,7 +46,7 @@ const Navbar = () => {
                         <div className={styles.navItem} onClick={navigation[0].href}>
                             {navigation[0].name}
                         </div>
-                        <Disclosure as='subNav' className={styles.subNav}>
+                        <Disclosure as='SubNav' className={styles.SubNav}>
                             {({open}) => (
                                 <>
                                     <Disclosure.Button className={styles.button}>
